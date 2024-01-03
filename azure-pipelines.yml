@@ -22,7 +22,7 @@ steps:
     connectionType: 'OpenShift Connection Service'
     openshiftService: 'OpenShift'
     version: '4.2'
-    cmd: 'oc new-app https://github.com/Bashayr29/simple-app.git'
+    cmd: 'oc new-app https://github.com/SwathyPraveen/simple-app'
     ignoreFlag: true
 - task: oc-cmd@3
   inputs:
